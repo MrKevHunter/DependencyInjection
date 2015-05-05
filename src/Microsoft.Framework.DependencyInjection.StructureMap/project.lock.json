@@ -1,0 +1,125 @@
+{
+  "locked": false,
+  "version": -9997,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "Microsoft.Framework.NotNullAttribute.Internal/1.0.0-beta5-10292": {
+        "frameworkAssemblies": [
+          "mscorlib",
+          "System",
+          "System.Core",
+          "Microsoft.CSharp"
+        ],
+        "compile": [
+          "lib/net45/Microsoft.Framework.NotNullAttribute.Internal.dll"
+        ],
+        "runtime": [
+          "lib/net45/Microsoft.Framework.NotNullAttribute.Internal.dll"
+        ]
+      },
+      "structuremap/3.1.5.154": {
+        "compile": [
+          "lib/net40/StructureMap.dll",
+          "lib/net40/StructureMap.Net4.dll"
+        ],
+        "runtime": [
+          "lib/net40/StructureMap.dll",
+          "lib/net40/StructureMap.Net4.dll"
+        ]
+      },
+      "xunit.runner.visualstudio/2.1.0-beta2-build1055": {}
+    },
+    "DNX,Version=v4.5.1": {
+      "Microsoft.Framework.NotNullAttribute.Internal/1.0.0-beta5-10292": {
+        "frameworkAssemblies": [
+          "mscorlib",
+          "System",
+          "System.Core",
+          "Microsoft.CSharp"
+        ],
+        "compile": [
+          "lib/dnx451/Microsoft.Framework.NotNullAttribute.Internal.dll"
+        ],
+        "runtime": [
+          "lib/dnx451/Microsoft.Framework.NotNullAttribute.Internal.dll"
+        ]
+      },
+      "structuremap/3.1.5.154": {
+        "compile": [
+          "lib/net40/StructureMap.dll",
+          "lib/net40/StructureMap.Net4.dll"
+        ],
+        "runtime": [
+          "lib/net40/StructureMap.dll",
+          "lib/net40/StructureMap.Net4.dll"
+        ]
+      },
+      "xunit.runner.visualstudio/2.1.0-beta2-build1055": {}
+    }
+  },
+  "libraries": {
+    "Microsoft.Framework.NotNullAttribute.Internal/1.0.0-beta5-10292": {
+      "sha512": "ON920FKA+hXVytBai1kH4JJW2faK7njJft5cuwMW3/tDkFUKmzbjd9GUSj7T7F72/FV0Yhg/C8YIJo7foZn+6Q==",
+      "files": [
+        "Microsoft.Framework.NotNullAttribute.Internal.1.0.0-beta5-10292.nupkg",
+        "Microsoft.Framework.NotNullAttribute.Internal.1.0.0-beta5-10292.nupkg.sha512",
+        "Microsoft.Framework.NotNullAttribute.Internal.nuspec",
+        "lib/dnx451/Microsoft.Framework.NotNullAttribute.Internal.dll",
+        "lib/dnx451/Microsoft.Framework.NotNullAttribute.Internal.xml",
+        "lib/dnxcore50/Microsoft.Framework.NotNullAttribute.Internal.dll",
+        "lib/dnxcore50/Microsoft.Framework.NotNullAttribute.Internal.xml",
+        "lib/net45/Microsoft.Framework.NotNullAttribute.Internal.dll",
+        "lib/net45/Microsoft.Framework.NotNullAttribute.Internal.xml",
+        "shared/NotNullAttribute.cs"
+      ]
+    },
+    "structuremap/3.1.5.154": {
+      "sha512": "OEbI94bNPgB1wXCA0nF54Tbr/iY2/YEFOtpYFXE/ktvYAvo1f26TrNykn8dhliReT7Hcw/vHUUD/phfZmotbmA==",
+      "files": [
+        "structuremap.3.1.5.154.nupkg",
+        "structuremap.3.1.5.154.nupkg.sha512",
+        "structuremap.nuspec",
+        "lib/net40/StructureMap.dll",
+        "lib/net40/StructureMap.Net4.dll",
+        "lib/net40/StructureMap.Net4.pdb",
+        "lib/net40/StructureMap.pdb",
+        "lib/net40/StructureMap.xml",
+        "lib/portable-win+net40/StructureMap.dll",
+        "lib/portable-win+net40/StructureMap.pdb",
+        "lib/portable-win+net40/StructureMap.xml"
+      ]
+    },
+    "xunit.runner.visualstudio/2.1.0-beta2-build1055": {
+      "sha512": "xBVqEOWkTJPiKRsrDYsyMUPcZiEzA3WUGyCdpUmOjLtAx7LIgeD92vDmqsxWOPbLTVWknz/WqoLbLHxDQlbu2g==",
+      "files": [
+        "xunit.runner.visualstudio.2.1.0-beta2-build1055.nupkg",
+        "xunit.runner.visualstudio.2.1.0-beta2-build1055.nupkg.sha512",
+        "xunit.runner.visualstudio.nuspec",
+        "build/net20/xunit.runner.visualstudio.props",
+        "build/portable-net45+aspnetcore50+win+wpa81+wp80+monotouch+monoandroid/xunit.runner.visualstudio.props",
+        "build/win8/xunit.runner.utility.win8.dll",
+        "build/win8/xunit.runner.visualstudio.props",
+        "build/win8/xunit.runner.visualstudio.targets",
+        "build/win8/xunit.runner.visualstudio.win8.dll",
+        "build/wpa81/xunit.runner.utility.universal.dll",
+        "build/wpa81/xunit.runner.utility.universal.pri",
+        "build/wpa81/xunit.runner.visualstudio.props",
+        "build/wpa81/xunit.runner.visualstudio.targets",
+        "build/wpa81/xunit.runner.visualstudio.wpa81.dll",
+        "build/wpa81/xunit.runner.visualstudio.wpa81.pri",
+        "build/_common/xunit.abstractions.dll",
+        "build/_common/xunit.runner.utility.desktop.dll",
+        "build/_common/xunit.runner.visualstudio.testadapter.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Microsoft.Framework.DependencyInjection >= 1.0.0-*",
+      "structuremap >= 3.1.5.154",
+      "xunit.runner.visualstudio >= 2.1.0-beta2-build1055"
+    ],
+    ".NETFramework,Version=v4.5": [],
+    "DNX,Version=v4.5.1": []
+  }
+}

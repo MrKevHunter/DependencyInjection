@@ -1,0 +1,91 @@
+{
+  "locked": false,
+  "version": -9997,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "Autofac/3.3.0": {
+        "compile": [
+          "lib/net40/Autofac.dll"
+        ],
+        "runtime": [
+          "lib/net40/Autofac.dll"
+        ]
+      },
+      "Microsoft.Framework.NotNullAttribute.Internal/1.0.0-beta5-10292": {
+        "frameworkAssemblies": [
+          "mscorlib",
+          "System",
+          "System.Core",
+          "Microsoft.CSharp"
+        ],
+        "compile": [
+          "lib/net45/Microsoft.Framework.NotNullAttribute.Internal.dll"
+        ],
+        "runtime": [
+          "lib/net45/Microsoft.Framework.NotNullAttribute.Internal.dll"
+        ]
+      }
+    },
+    "DNX,Version=v4.5.1": {
+      "Autofac/3.3.0": {
+        "compile": [
+          "lib/net40/Autofac.dll"
+        ],
+        "runtime": [
+          "lib/net40/Autofac.dll"
+        ]
+      },
+      "Microsoft.Framework.NotNullAttribute.Internal/1.0.0-beta5-10292": {
+        "frameworkAssemblies": [
+          "mscorlib",
+          "System",
+          "System.Core",
+          "Microsoft.CSharp"
+        ],
+        "compile": [
+          "lib/dnx451/Microsoft.Framework.NotNullAttribute.Internal.dll"
+        ],
+        "runtime": [
+          "lib/dnx451/Microsoft.Framework.NotNullAttribute.Internal.dll"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Autofac/3.3.0": {
+      "sha512": "Imzhu/WO3RAze1tCD1iBLB/r7X+SePoIm97O5wwb57P3Y8ZJ5JB5ymfiqxeUfsN38+4BuvKE59400OwdBv/idg==",
+      "files": [
+        "Autofac.3.3.0.nupkg",
+        "Autofac.3.3.0.nupkg.sha512",
+        "Autofac.nuspec",
+        "lib/net40/Autofac.dll",
+        "lib/net40/Autofac.xml",
+        "lib/portable-win+net40+sl50+wp8/Autofac.dll",
+        "lib/portable-win+net40+sl50+wp8/Autofac.xml"
+      ]
+    },
+    "Microsoft.Framework.NotNullAttribute.Internal/1.0.0-beta5-10292": {
+      "sha512": "ON920FKA+hXVytBai1kH4JJW2faK7njJft5cuwMW3/tDkFUKmzbjd9GUSj7T7F72/FV0Yhg/C8YIJo7foZn+6Q==",
+      "files": [
+        "Microsoft.Framework.NotNullAttribute.Internal.1.0.0-beta5-10292.nupkg",
+        "Microsoft.Framework.NotNullAttribute.Internal.1.0.0-beta5-10292.nupkg.sha512",
+        "Microsoft.Framework.NotNullAttribute.Internal.nuspec",
+        "lib/dnx451/Microsoft.Framework.NotNullAttribute.Internal.dll",
+        "lib/dnx451/Microsoft.Framework.NotNullAttribute.Internal.xml",
+        "lib/dnxcore50/Microsoft.Framework.NotNullAttribute.Internal.dll",
+        "lib/dnxcore50/Microsoft.Framework.NotNullAttribute.Internal.xml",
+        "lib/net45/Microsoft.Framework.NotNullAttribute.Internal.dll",
+        "lib/net45/Microsoft.Framework.NotNullAttribute.Internal.xml",
+        "shared/NotNullAttribute.cs"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Autofac >= 3.3.0",
+      "Microsoft.Framework.DependencyInjection >= 1.0.0-*"
+    ],
+    ".NETFramework,Version=v4.5": [],
+    "DNX,Version=v4.5.1": []
+  }
+}
